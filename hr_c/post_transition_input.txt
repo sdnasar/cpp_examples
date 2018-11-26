@@ -1,0 +1,691 @@
+2 
+A
+2
+2 1 3
+a 2
+b 3
+1 2 4
+c 2
+B
+1
+4 1 4
+d 1
+e 2
+f 3
+h 4
+5
+3
+2 B 0 A 1
+3
+1 A
+1 B
+
+
+
+2 // number of towns
+A // town name
+2 // number of post offices in town A
+2 1 3 // 2 packages with min 1 and max 3 wight in 1st post office of town A
+a 2 // package id and weight of 1st package of fist post office of town A
+b 3 // package id and weight
+1 2 4 // 1 package with min and max wight of 2 and 4 in 2nd post office of town A
+c 2 // package id and weight
+B // town B
+1 // 1 number of post offices
+4 1 4 // 4 packages with 1 and 4 min and max weights
+d 1 // package of town B first post office
+e 2 // package e
+f 3 // package f
+h 4 // package h
+5 // number of queries
+3
+2 B 0 A 1
+3
+1 A
+1 B
+
+
+
+
+
+// input 2
+
+10
+QHTQW
+10
+8 2 4
+istvh
+6
+zvroo
+6
+jfteg
+7
+kjrjy
+4
+glssh
+7
+txzgf
+7
+awlyz
+7
+kxysp
+9
+0 2 2
+5 5 7
+qdkxj
+6
+lkjwn
+5
+wfzin
+9
+txscj
+6
+pawnh
+4
+10 0 3
+lhsdu
+10
+slmcr
+8
+ipqqb
+4
+bfgcq
+3
+xejhg
+7
+hxwjm
+9
+kgapl
+1
+jjltq
+6
+rozam
+5
+inyst
+2
+3 2 4
+livfh
+10
+sjtkz
+7
+nkabb
+5
+4 5 5
+ztjpz
+4
+ztqhv
+2
+sjbju
+6
+usjty
+7
+10 3 5
+pysva
+4
+zdfed
+7
+aufch
+9
+kgxap
+8
+wbnuh
+3
+meahs
+5
+snsii
+5
+bmtjs
+2
+pvrju
+8
+sikdv
+3
+9 0 3
+zublb
+6
+gwadb
+10
+zrwmo
+6
+scfwy
+5
+avzja
+7
+xrdil
+4
+omois
+6
+jswfd
+1
+ynvlq
+6
+8 5 5
+cszfr
+6
+psfcc
+2
+ayvfi
+1
+qbeba
+8
+kleew
+10
+ynezr
+8
+dmfqy
+3
+ohwhr
+1
+10 2 6
+cdvsf
+10
+vhpvs
+10
+lcwnn
+6
+aefge
+8
+zglnx
+2
+omksi
+9
+nqhqg
+4
+atpxw
+6
+dsxuf
+3
+nneba
+8
+SPETV
+1
+3 8 10
+mutkx
+10
+ybnie
+6
+uesbl
+4
+LPXNP
+9
+8 4 7
+eebhd
+2
+htjqf
+6
+khaww
+2
+kguwt
+10
+efpxp
+6
+drxfu
+4
+vbuuf
+6
+vgzpd
+4
+2 2 6
+zswpq
+8
+bdzvn
+10
+8 4 5
+gvqxh
+3
+kasgy
+8
+kpczg
+8
+hhevo
+9
+kfpde
+5
+kohkt
+7
+vfnor
+10
+bezaw
+10
+6 1 6
+udwux
+9
+ldjwj
+2
+iqaqs
+8
+rqjgo
+3
+xiusx
+8
+aryev
+3
+4 8 9
+gqbte
+3
+mppci
+9
+dgzfv
+7
+qvzee
+9
+2 8 9
+zstqo
+3
+wvntd
+8
+1 8 9
+bcfrm
+4
+6 0 1
+lrdex
+9
+psxuh
+7
+cpttd
+3
+faqwc
+9
+pwvnk
+6
+vkcof
+2
+1 0 2
+gpdox
+10
+UUYYC
+3
+6 1 7
+drclz
+1
+shght
+4
+fspjh
+3
+gfasd
+8
+wjgpl
+6
+qzjbb
+6
+5 5 10
+nhecb
+4
+sntzz
+9
+oxauw
+10
+kjzhz
+4
+fwdsv
+7
+8 0 4
+hqilw
+6
+cnkij
+1
+apbyq
+3
+xveje
+5
+izvvi
+4
+tcbdo
+3
+jhvei
+9
+vekkf
+9
+ZNCNK
+5
+9 6 7
+uwpii
+7
+tajdj
+8
+tsgie
+5
+rpwin
+2
+umvkt
+7
+zkxnr
+1
+dkqbv
+5
+pludl
+10
+egdrh
+8
+1 2 6
+pigfr
+5
+7 6 7
+zjeib
+2
+errwd
+6
+ceczo
+4
+viwlp
+10
+ibyan
+6
+aahoa
+5
+omxzo
+8
+4 2 6
+ktiaz
+2
+zynkm
+9
+bcruj
+10
+dzqsg
+7
+5 3 10
+mtkvb
+10
+gfsei
+9
+xvjvw
+9
+kasym
+9
+iammk
+9
+MPNJQ
+1
+6 1 8
+fyyvp
+9
+mrguj
+6
+atfsn
+8
+tniwl
+9
+sdfwy
+9
+jfzsh
+6
+EPEJV
+6
+10 2 4
+vpfha
+6
+icqje
+9
+fyhni
+8
+zhvmu
+5
+gazmn
+9
+pbpkm
+9
+zdbno
+10
+ajljb
+10
+oerte
+9
+efxni
+6
+1 10 10
+oxvkz
+10
+1 3 9
+uzlwf
+10
+9 0 5
+umclz
+3
+stoxj
+4
+soqfw
+2
+uehqf
+6
+ncfkp
+3
+sqlhl
+5
+nrocc
+7
+zliku
+7
+oyyok
+2
+8 5 9
+ilpee
+5
+nqygs
+6
+jnyuc
+8
+kfzbl
+8
+inmzb
+3
+jylqw
+10
+iamfk
+5
+fjjjj
+2
+9 0 10
+urryc
+4
+yivif
+5
+axlhw
+3
+bbswj
+2
+ysejw
+9
+wzslx
+8
+yilcl
+6
+gqlak
+8
+knfao
+7
+ZQRQI
+8
+7 1 10
+burfw
+7
+bkrdx
+9
+pwefa
+9
+cltzw
+3
+xzimw
+8
+lhfec
+4
+ifljz
+9
+2 0 5
+olqkn
+8
+xfmzm
+8
+1 1 8
+pqics
+4
+9 0 3
+rbird
+10
+slyhr
+5
+ehxzu
+9
+nmsdp
+5
+keear
+1
+hlffb
+6
+nshtj
+5
+biave
+8
+uursp
+1
+4 3 4
+lnfbq
+6
+ronmf
+10
+wgpbe
+2
+euhgb
+10
+6 0 3
+axrhr
+10
+uwpts
+4
+zakok
+7
+patut
+2
+djevv
+4
+joqrb
+3
+5 7 9
+jqkqw
+4
+apahw
+7
+xtjgx
+1
+tcklk
+4
+aoxfq
+5
+0 8 8
+ROESD
+6
+2 2 5
+thujq
+3
+pnrrk
+3
+7 0 4
+xgdcg
+10
+foxkp
+6
+mrcix
+6
+sdolj
+8
+xhppx
+6
+lzwws
+5
+ztolx
+3
+5 0 1
+lmcjv
+6
+qlohv
+8
+xwaip
+10
+wivmn
+2
+qjbzk
+9
+9 0 1
+hwecx
+6
+coesk
+2
+kadch
+5
+qsqtx
+7
+uncwi
+2
+egvul
+6
+wlzwh
+9
+fhdnq
+3
+bwbwt
+1
+2 2 4
+ujmjq
+6
+bjmjy
+4
+0 4 10
+MVWHQ
+4
+4 1 3
+fbfdx
+10
+xgmfk
+1
+mlplk
+2
+rltgx
+9
+4 4 10
+afvdi
+6
+jmssz
+9
+abdvx
+1
+lmgqa
+9
+5 2 7
+imfdz
+2
+xaywm
+6
+ykpwx
+10
+zione
+1
+yrdbv
+9
+4 2 3
+wmooq
+4
+lntgr
+4
+tzhzl
+7
+lmcgv
+4
+10
+1
+MVWHQ
+1
+ROESD
+1
+EPEJV
+3
+1
+LPXNP
+1
+ZQRQI
+1
+MPNJQ
+1
+LPXNP
+1
+UUYYC
+3
