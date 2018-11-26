@@ -17,7 +17,7 @@ input:
 4
 3 1
 
-output:
+sample output:
 c
 y
 a
