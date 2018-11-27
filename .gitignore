@@ -1,8 +1,8 @@
 *~
-*.pdf
 a.out
 notes.txt
 test_json.json
 .vscode
 main.cpp
+hr_pdfs
 
