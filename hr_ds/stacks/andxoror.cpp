@@ -24,7 +24,7 @@ int andXorOr(vector<int> a) {
   stack<int> s;
   for (auto i : a) {
     while (!s.empty()) {
-      res = max(res, calculate(i, s.top()));
+      res = maxof(res, calculate(i, s.top()));
       if (i < s.top())
         s.pop();
       else
