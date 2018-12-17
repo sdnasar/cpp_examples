@@ -61,7 +61,7 @@ vector<ulli> sieveRange(ulli start, ulli end) {
 
 // Driver Program to test above function
 int main(void) {
-  ulli start = 2;
+  ulli start = 3;
   ulli end = 100;
   vector<ulli> ans = sieveRange(start, end);
   for (auto i : ans) cout << i << ' ';
